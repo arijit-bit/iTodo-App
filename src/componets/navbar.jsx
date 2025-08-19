@@ -73,7 +73,7 @@ const Navbar = () => {
   const todosToDisplay = showDone ? todos.filter(items => items.Complete === false) : todos;
 
   return (
-    <div className='bg-[#230f35] max-[450px]:pt-0 pt-[4.5vw] flex justify-center items-center'>
+    <div className='bg-[#230f35] max-[450px]:pt-0 flex justify-center items-center h-screen'>
       <div className="body-cont bg-white w-[60vw] min-w-[414px] max-w-[550px] h-[600px] rounded-[9px] p-8 px-15 max-[450px]:w-screen max-[450px]:h-screen max-[450px]:mt-0 ">
         <div className="head-cont pb-10">
           <div className="heading text-3xl font-medium " >iTodo App</div>
